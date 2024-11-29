@@ -24,4 +24,8 @@ public enum MimeTypeSupport{
         }
         return null;
     }
+
+    static String getDestinyMimeType(){
+        return MimeTypeSupport.APPLICATION_PDF.extension;
+    }
 }
